@@ -11,14 +11,49 @@ mark{
 .name h1{
     font-size: 30px;
     padding-left: 10px;
-    margin-top: -50px;
+    margin-top: 0px;
     position: fixed;
 }
+
+.name h2{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 90px;
+    margin-left: 170px;
+    margin-right: 170px;
+    text-align: center;
+
+    -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
 
 .about p{
     font-size: 80px;
     padding-left: 10px;
-    padding-top: 70px;
+    padding-top: 0px;
     margin-left: 170px;
     margin-right: 170px;
     text-align: left;
