@@ -1,0 +1,85 @@
+body {
+    background-color: #deff00;
+}
+
+.body-content {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {    
+    background-color: #cbbfff;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    top: 30px;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    margin-left: -22px;
+    height: 145px;
+    width: 100%;
+    border: 2px solid #000000;
+    left: 0;
+    bottom: 0;
+    background-color: #cbbfff;
+    text-align: center;
+    text-indent: 37px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.links {
+    display: inline;
+    text-align: center;
+    position: relative;
+    left: 33px;
+    line-height: 2;
+    
+}
+
+.linkedin {
+    padding-right: 30px;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.linkedin:hover {
+    color: rgb(44, 44, 44, 0.8);
+}
+
+.insta {
+    padding-right: 30px;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.insta:hover {
+    color: rgb(44, 44, 44, 0.8);
+}
+
+.mail {
+    padding-right: 30px;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.mail:hover {
+    color: rgb(44, 44, 44, 0.8);
+}
