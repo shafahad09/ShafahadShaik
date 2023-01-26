@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 8vh;
+    background-color: #000606;
+}
+
+.about {
+    background-color: #000606;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about > .info {
+    align-self: center;
+    max-width: 800px;
+}
+
+.about > .info > h1 {
+    font-size: 48px;
+    font-family: 'Unbounded', cursive;
+}
+
+.about > .info > h1 > mark {
+    background-color: #DD3B53;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.about > .info > h1 > mark:hover {
+    background-color: #000606;
+    color: #DD3B53;
+    transition: 500ms;
+    user-select: none;
+}
+
+.about > .info > p {
+    font-size: 24px;
+    color: #EFE7EB;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.about > img {
+    height: 500px;
+    width: auto;
+}
+
+.skills {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills > h2 {
+    align-self: center;
+    font-size: 42px;
+    font-family: 'Unbounded', cursive;
+}
+
+.skills > .cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 48px;
+}
+
+/* CARD 1 */
+
+.skills > .cards > .card1 {
+    height: 300px;
+    width: 300px;
+    background: rgba( 0, 6, 6, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    flex-direction: column;
+}
+
+.skills > .cards > .card1 > h3 {
+    color: #DD3B53;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Unbounded', cursive;
+}
+
+.skills > .cards > .card1 > ol {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* CARD 2 */
+
+.skills > .cards > .card2 {
+    height: 300px;
+    width: 300px;
+    background: rgba( 0, 6, 6, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    flex-direction: column;
+}
+
+.skills > .cards > .card2 > h3 {
+    color: #DD3B53;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Unbounded', cursive;
+}
+
+.skills > .cards > .card2 > ol {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* CARD 3 */
+
+.skills > .cards > .card3 {
+    height: 300px;
+    width: 300px;
+    background: rgba( 0, 6, 6, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    flex-direction: column;
+}
+
+.skills > .cards > .card3 > h3 {
+    color: #DD3B53;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Unbounded', cursive;
+}
+
+.skills > .cards > .card3 > ol {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* CARD 4 */
+
+.skills > .cards > .card4 {
+    height: 300px;
+    width: 300px;
+    background: rgba( 0, 6, 6, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    flex-direction: column;
+}
+
+.skills > .cards > .card4 > h3 {
+    color: #DD3B53;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Unbounded', cursive;
+}
+
+.skills > .cards > .card4 > ol {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.projects {
+    background-color: #000606;
+}
+
+.certifications {
+    background-color: #FFFFFF;
+}
+
+.contact-me {
+    background-color: #000606;
+}
