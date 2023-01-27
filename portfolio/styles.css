@@ -3,8 +3,40 @@ body {
 }
 
 nav {
-    height: 8vh;
     background-color: #000606;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > .logo > h3 {
+    color: #DD3B53;
+    font-size: 32px;
+    font-family: 'Unbounded', cursive;
+}
+
+nav > .logo > h3:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+nav > .navigations {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav > .navigations > h3 {
+    color: #FFFFFF;
+}
+
+nav > .navigations > h3:hover {
+    color: #DD3B53;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 500ms;
 }
 
 .about {
