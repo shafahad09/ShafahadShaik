@@ -1,15 +1,20 @@
 body {
     margin: 0;
+    background-color: #DEFF00;
 }
 
+                    /* NAVBAR */
+
 nav {
-    background-color: #000606;
+    background-color: #000000;
     display: flex;
     justify-content: space-around;
+    border-radius: 8px;
+    margin: 5px;
 }
 
 nav > .logo > h3 {
-    color: #DD3B53;
+    color: #CBBFFF;
     font-size: 32px;
     font-family: 'Unbounded', cursive;
 }
@@ -32,18 +37,22 @@ nav > .navigations > h3 {
     color: #FFFFFF;
 }
 
-nav > .navigations > h3:hover {
-    color: #DD3B53;
+nav > .navigations > h3:hover { 
+    color: #CBBFFF;
     cursor: pointer;
     text-decoration: underline;
     transition: 500ms;
 }
 
+                    /* ABOUT SECTION */
+
 .about {
-    background-color: #000606;
+    background-color: #000000;
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
+    border-radius: 8px;
+    margin: 5px;
 }
 
 .about > .info {
@@ -57,15 +66,14 @@ nav > .navigations > h3:hover {
 }
 
 .about > .info > h1 > mark {
-    background-color: #DD3B53;
-    color: #FFFFFF;
+    background-color: #000000;
+    color: #CBBFFF;
     border-radius: 8px;
     padding: 8px;
 }
 
 .about > .info > h1 > mark:hover {
-    background-color: #000606;
-    color: #DD3B53;
+    
     transition: 500ms;
     user-select: none;
 }
@@ -76,16 +84,34 @@ nav > .navigations > h3:hover {
     font-family: 'Roboto', sans-serif;
 }
 
+.about > .info > button {
+    background-color: #CBBFFF;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.about > .info > button:hover {
+    cursor: pointer;
+}
+
 
 .about > img {
     height: 500px;
     width: auto;
 }
 
+                    /* SKILLS SECTION */
+
 .skills {
-    background-color: #FFFFFF;
+    background-color: #CBBFFF;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+    margin: 5px;
 }
 
 .skills > h2 {
@@ -101,7 +127,7 @@ nav > .navigations > h3:hover {
     padding-bottom: 48px;
 }
 
-/* CARD 1 */
+                    /* SKILLS CARD 1 */
 
 .skills > .cards > .card1 {
     height: 300px;
@@ -118,7 +144,7 @@ nav > .navigations > h3:hover {
 }
 
 .skills > .cards > .card1 > h3 {
-    color: #DD3B53;
+    color: #CBBFFF;
     font-size: 32px;
     text-align: center;
     margin-top: 16px;
@@ -134,7 +160,7 @@ nav > .navigations > h3:hover {
     gap: 16px;
 }
 
-/* CARD 2 */
+                    /* SKILLS CARD 2 */
 
 .skills > .cards > .card2 {
     height: 300px;
@@ -151,7 +177,7 @@ nav > .navigations > h3:hover {
 }
 
 .skills > .cards > .card2 > h3 {
-    color: #DD3B53;
+    color: #CBBFFF;
     font-size: 32px;
     text-align: center;
     margin-top: 16px;
@@ -167,7 +193,7 @@ nav > .navigations > h3:hover {
     gap: 16px;
 }
 
-/* CARD 3 */
+                    /* SKILLS CARD 3 */
 
 .skills > .cards > .card3 {
     height: 300px;
@@ -184,7 +210,7 @@ nav > .navigations > h3:hover {
 }
 
 .skills > .cards > .card3 > h3 {
-    color: #DD3B53;
+    color: #CBBFFF;
     font-size: 32px;
     text-align: center;
     margin-top: 16px;
@@ -200,7 +226,7 @@ nav > .navigations > h3:hover {
     gap: 16px;
 }
 
-/* CARD 4 */
+                    /* SKILLS CARD 4 */
 
 .skills > .cards > .card4 {
     height: 300px;
@@ -217,7 +243,7 @@ nav > .navigations > h3:hover {
 }
 
 .skills > .cards > .card4 > h3 {
-    color: #DD3B53;
+    color: #CBBFFF;
     font-size: 32px;
     text-align: center;
     margin-top: 16px;
@@ -233,12 +259,125 @@ nav > .navigations > h3:hover {
     gap: 16px;
 }
 
+                    /* PROJECTS SECTION */
+
 .projects {
-    background-color: #000606;
+    background-color: #000000;
+    border-radius: 8px;
+    margin: 5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
 
+.projects > h2 {
+    color: #CBBFFF;
+    font-size: 42px;
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+}
+
+    /* BELOW TWO ARE FOR PROJECTS AND CERTIFICATIONS SECTION */
+
+.num-tags {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.content {
+    width: 70%;
+}
+
+                    /* TILL HERE */
+
+                    /* PROJECT 1 */
+
+.projects > .project1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects > .project1 > .content > .data > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+                    /* PROJECT 2 */
+
+.projects > .project2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects > .project2 > .content > .data > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+                    /* PROJECT 3 */
+
+.projects > .project3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects > .project3 > .content > .data > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+hr {
+    width: 95%;
+    color: #DEFF00;
+}
+
+                    /* CERTIFICATIONS */
+
 .certifications {
-    background-color: #FFFFFF;
+    background-color: #CBBFFF;
+    border-radius: 8px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.certifications > h2 {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Unbounded', cursive;
+}
+
+.certifications > .certification1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.certifications > .certification1 > .content > .data > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .contact-me {
