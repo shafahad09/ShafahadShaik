@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Shafahad Shaik</title>
 </head>
@@ -17,10 +18,10 @@
 <body>
     <nav>
         <div class="logo">
-            <h3>Shafahad</h3>
+            <h3 data-aos="fade-right" data-aos-delay="300">Shafahad</h3>
         </div>
 
-        <div class="navigations">
+        <div class="navigations" data-aos="fade-left" data-aos-delay="300">
             <h3><a href="#about-me">About Me</a></h3>
             <h3><a href="#skills">Skills</a></h3>
             <h3><a href="#projects">Projects</a></h3>
@@ -31,7 +32,7 @@
     </nav>
 
     <div class="about" id="about-me">
-        <div class="info">
+        <div class="info" data-aos="fade-right" data-aos-delay="300">
             <h1>Hi, My name is <mark>Shafahad</mark> Shaik.</h1>
             <p>
                 I am currently majoring in Artificial Intelligence & Machine Learning
@@ -41,13 +42,13 @@
                 Download My CV
             </button>
         </div>
-        <img src="/images/Profile-Pic.png" alt="Profile Picture">
+        <img src="/images/Profile-Pic.png" alt="Profile Picture" data-aos="fade-left">
     </div>
 
-    <div class="skills" id="skills">
-        <h2>Skills</h2>
+    <div class="skills" id="skills" data-aos="fade-down" data-aos-delay="300">
+        <h2 data-aos="fade-right">Skills</h2>
         <div class="cards">
-            <div class="card1">
+            <div class="card1" data-aos="zoom-in">
                 <h3>Languages</h3>
                 <ol>
                     <li>Java</li>
@@ -85,10 +86,12 @@
             </div>
         </div>
     </div>
+
                 <!-- PROJECTS SECTION -->
+
     <div class="projects" id="projects">
-        <h2>Projects</h2>
-        <div class="project1">
+        <h2 data-aos="fade-left" data-aos-delay="300">Projects</h2>
+        <div class="project1" data-aos="fade-down" data-aos-delay="300">
             <div class="num-tags">
                 <div class="num">01 <br>Nov 2022 - present</div>
                 <div class="tags">
@@ -121,7 +124,7 @@
             </div>
         </div>
         <hr>
-        <div class="project2">
+        <div class="project2" data-aos="fade-down" data-aos-delay="300">
             <div class="num-tags">
                 <div class="num">02 <br> OCT 2021 - NOV 2021</div>
                 <div class="tags">
@@ -154,7 +157,7 @@
             </div>
         </div>
         <hr>
-        <div class="project3">
+        <div class="project3" data-aos="fade-down" data-aos-delay="300">
             <div class="num-tags">
                 <div class="num">03 <br> JAN 2023 - FEB 2023</div>
                 <div class="tags">
@@ -187,11 +190,11 @@
 
                 <!-- CERTIFICATIONS -->
 
-    <div class="certifications" id="certs">
-        <h2>
+    <div class="certifications" id="certs" data-aos="fade-down">
+        <h2 data-aos="fade-right" data-aos-delay="300">
             Certifications
         </h2>
-        <div class="certification1">
+        <div class="certification1" data-aos="fade-down" data-aos-delay="300">
             <div class="num-tags">
                 01
             </div>
@@ -219,7 +222,7 @@
                 <!-- CONTACT ME -->
 
     <div class="contact-me" id="cont-me">
-        <h3>Contact Me</h3>
+        <h3 data-aos="fade-left" data-aos-delay="300">Contact Me</h3>
         <div class="details">
             <div class="mail">
                 <h4><a href="mailto:skshafahad09@gmail.com">skshafahad09@gmail.com</a></h4>
@@ -243,6 +246,12 @@
     <footer>
         <h4>Copyright &copy; Shafahad Shaik</h4>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
