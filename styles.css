@@ -492,3 +492,7 @@ footer > h4 {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
+
+footer > h4 > a {
+    color: #000000;
+}
