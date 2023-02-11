@@ -78,7 +78,6 @@ nav > .navigations > h3:hover {
 }
 
 .about > .info > h1 > mark:hover {
-    
     transition: 500ms;
     user-select: none;
 }
@@ -102,6 +101,11 @@ nav > .navigations > h3:hover {
 .about > .info > button:hover {
     cursor: pointer;
 }
+
+.about > .info > button > a {
+    color: #000000;
+}
+
 
 
 .about > img {
