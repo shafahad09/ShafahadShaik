@@ -56,8 +56,6 @@ nav > .navigations > h3:hover {
     justify-content: space-around;
     border-radius: 8px;
     margin: 5px;
-
-    min-height: 50vh;
 }
 
 .about > .info {
@@ -122,6 +120,7 @@ nav > .navigations > h3:hover {
     border-radius: 8px;
     margin: 5px;
     min-height: 50vh;
+
 }
 
 .skills > h2 {
@@ -499,4 +498,11 @@ footer > h4 {
 
 footer > h4 > a {
     color: #000000;
+}
+
+@media screen and (max-width: 600px){
+    
+    .about > .info > h1 {
+        font-size: 18px;
+    }
 }
